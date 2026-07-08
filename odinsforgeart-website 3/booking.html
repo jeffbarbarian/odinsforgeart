@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Booking — Jeff Ing | Tattoo Artist</title>
+<meta name="description" content="Book a tattoo consult with Jeff Ing.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="nav-wrap">
+    <a href="index.html" class="brand">Jeff Ing <span>|</span> Tattoo Artist</a>
+    <button class="nav-toggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="flash.html">Flash</a></li>
+      <li><a href="finished.html">Finished</a></li>
+      <li><a href="healed.html">Healed</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="aftercare.html">Aftercare</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+      <li><a href="booking.html" class="btn btn-solid active">Book Now</a></li>
+    </ul>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <span class="eyebrow">Let's Get You Booked</span>
+    <h1>Booking &amp; Contact</h1>
+    <p>Three ways to reach out — pick whichever's easiest. Include your idea, rough placement, and size if you have them; it speeds things up.</p>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="contact-grid">
+      <div class="contact-card">
+        <h3>Instagram DM</h3>
+        <p>Fastest way to reach me. Send reference photos directly.</p>
+        <!-- Link auto-fills from Site Settings in the CMS -->
+        <a href="#" class="btn" target="_blank" rel="noopener" data-field="instagram_url">Message on Instagram</a>
+      </div>
+      <div class="contact-card">
+        <h3>Email</h3>
+        <p>Best for longer descriptions or multiple reference images.</p>
+        <a href="mailto:bookings@odinsforgeart.com" class="btn" data-field="booking_email" data-field-text="true">bookings@odinsforgeart.com</a>
+      </div>
+      <div class="contact-card">
+        <h3>Booking Form</h3>
+        <p>Fill out a quick intake form and I'll follow up with availability.</p>
+        <a href="#" class="btn" target="_blank" rel="noopener" data-field="booking_form_url">Open Booking Form</a>
+      </div>
+    </div>
+
+    <div class="booking-steps">
+      <h2 class="text-center">How Booking Works</h2>
+      <ol class="steps">
+        <li>
+          <h3>Reach out</h3>
+          <p>Send your idea, reference images, rough size, and placement through any of the options above.</p>
+        </li>
+        <li>
+          <h3>Free consult</h3>
+          <p>We talk through design direction, sizing, and realistic expectations — in person or over message.</p>
+        </li>
+        <li>
+          <h3>Deposit &amp; scheduling</h3>
+          <p>A non-refundable deposit secures your spot and goes toward the final cost of your piece.</p>
+        </li>
+        <li>
+          <h3>Design day</h3>
+          <p>Final design is confirmed before we start — you'll see the stencil before any ink touches skin.</p>
+        </li>
+        <li>
+          <h3>Tattoo day</h3>
+          <p>Show up rested, fed, and hydrated. Bring headphones if it helps you relax.</p>
+        </li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<section class="alt text-center">
+  <div class="container max-w">
+    <h2>Cancellations &amp; No-Shows</h2>
+    <p>Please give at least 24 hours notice if you need to reschedule or cancel. Late cancellations and no-shows may forfeit the deposit. Full policy details available on request.</p>
+    <a href="faq.html" class="btn mt-2">See Full FAQ</a>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="brand">Jeff Ing <span>|</span> Tattoo Artist</a>
+        <p data-field="tagline" style="max-width:280px; margin-top:0.5rem;">Nordic knotwork &amp; blackwork tattooing, Saratoga / Clifton Park, NY.</p>
+        <div class="footer-social">
+          <a href="#" target="_blank" rel="noopener" data-field="instagram_url">Instagram</a>
+          <a href="#" target="_blank" rel="noopener" data-field="facebook_url">Facebook</a>
+          <a href="#" target="_blank" rel="noopener" data-field="tiktok_url">TikTok</a>
+        </div>
+      </div>
+      <nav class="footer-links">
+        <a href="flash.html">Available Flash</a>
+        <a href="finished.html">Finished Pieces</a>
+        <a href="healed.html">Healed Pieces</a>
+        <a href="aftercare.html">Aftercare</a>
+        <a href="faq.html">FAQ &amp; Shop Info</a>
+        <a href="booking.html">Booking</a>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      &copy; <span id="year"></span> Jeff Ing. All rights reserved.
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

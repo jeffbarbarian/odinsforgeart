@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jeff Ing | Tattoo Artist — Odin's Forge</title>
+<meta name="description" content="Jeff Ing, tattoo artist specializing in Nordic knotwork, blackwork, and American traditional. Based in the Saratoga / Clifton Park, NY area.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="nav-wrap">
+    <a href="index.html" class="brand">Jeff Ing <span>|</span> Tattoo Artist</a>
+    <button class="nav-toggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="flash.html">Flash</a></li>
+      <li><a href="finished.html">Finished</a></li>
+      <li><a href="healed.html">Healed</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="aftercare.html">Aftercare</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+      <li><a href="booking.html" class="btn btn-solid">Book Now</a></li>
+    </ul>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <span class="eyebrow">Saratoga / Clifton Park, NY</span>
+    <h1>Bold blackwork &amp; Nordic pieces,<br>built to last.</h1>
+    <p class="lede">Fine linework, Nordic knotwork, and American traditional tattooing — approached with patience, precision, and a genuine interest in the story behind every piece.</p>
+    <div class="btn-row">
+      <a href="booking.html" class="btn btn-solid">Book a Consult</a>
+      <a href="finished.html" class="btn">View Portfolio</a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="text-center">
+      <span class="eyebrow">Explore</span>
+      <h2>Where to look first</h2>
+    </div>
+    <div class="card-grid">
+      <div class="nav-card">
+        <div class="icon">⚔</div>
+        <h3>Available Flash</h3>
+        <p>Ready-to-book designs — first come, first inked.</p>
+        <a href="flash.html" class="link">See Flash →</a>
+      </div>
+      <div class="nav-card">
+        <div class="icon">◆</div>
+        <h3>Finished Pieces</h3>
+        <p>Fresh work, straight off the machine.</p>
+        <a href="finished.html" class="link">See Portfolio →</a>
+      </div>
+      <div class="nav-card">
+        <div class="icon">✦</div>
+        <h3>Healed Pieces</h3>
+        <p>How the work settles and ages once healed.</p>
+        <a href="healed.html" class="link">See Healed Work →</a>
+      </div>
+      <div class="nav-card">
+        <div class="icon">✧</div>
+        <h3>About Jeff</h3>
+        <p>Background, mentorship, and the style he's building.</p>
+        <a href="about.html" class="link">Read More →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="container about-grid">
+    <div class="portrait-placeholder">Add photo:<br>Jeff at the machine / studio shot</div>
+    <div class="body">
+      <span class="eyebrow">Tattoo Apprentice</span>
+      <h2>Linework first. Everything else follows.</h2>
+      <p>Jeff is a tattoo apprentice working toward a style built on clean linework, Nordic knotwork, and blackwork — with American traditional and color as the long-term goal. Every session is about doing the fundamentals right before chasing the flashy stuff.</p>
+      <p>Currently taking linework-focused bookings while drilling the craft under mentorship. Clients are welcome to return later for shading or color work.</p>
+      <a href="about.html" class="btn mt-2">More About Jeff</a>
+    </div>
+  </div>
+</section>
+
+<section class="text-center">
+  <div class="container max-w">
+    <span class="eyebrow">Ready When You Are</span>
+    <h2>Have an idea? Let's build it.</h2>
+    <p>Consults are free. Bring reference images, placement ideas, or just a rough concept — we'll shape it together.</p>
+    <a href="booking.html" class="btn btn-solid mt-2">Start a Booking</a>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="brand">Jeff Ing <span>|</span> Tattoo Artist</a>
+        <p data-field="tagline" style="max-width:280px; margin-top:0.5rem;">Nordic knotwork &amp; blackwork tattooing, Saratoga / Clifton Park, NY.</p>
+        <div class="footer-social">
+          <!-- Links auto-fill from Site Settings in the CMS -->
+          <a href="#" target="_blank" rel="noopener" data-field="instagram_url">Instagram</a>
+          <a href="#" target="_blank" rel="noopener" data-field="facebook_url">Facebook</a>
+          <a href="#" target="_blank" rel="noopener" data-field="tiktok_url">TikTok</a>
+        </div>
+      </div>
+      <nav class="footer-links">
+        <a href="flash.html">Available Flash</a>
+        <a href="finished.html">Finished Pieces</a>
+        <a href="healed.html">Healed Pieces</a>
+        <a href="aftercare.html">Aftercare</a>
+        <a href="faq.html">FAQ &amp; Shop Info</a>
+        <a href="booking.html">Booking</a>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      &copy; <span id="year"></span> Jeff Ing. All rights reserved.
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+
+<!-- Netlify Identity — handles the login link from invite/reset emails
+     and sends you to the CMS at /admin/ after you log in. -->
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on('init', function (user) {
+      if (!user) {
+        window.netlifyIdentity.on('login', function () {
+          document.location.href = '/admin/';
+        });
+      }
+    });
+  }
+</script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "items": [
+    { "title": "Rune Circle", "style": "Nordic Knotwork", "price": "$120", "status": "available", "img": "", "note": "3.5in diameter — forearm or calf" },
+    { "title": "Wolf Skull & Rune", "style": "Blackwork", "price": "$150", "status": "available", "img": "", "note": "4in — outer arm or thigh" },
+    { "title": "Valknut Knotwork", "style": "Nordic Knotwork", "price": "$100", "status": "available", "img": "", "note": "2.5in — small placement friendly" },
+    { "title": "Mjolnir & Chainwrap", "style": "Blackwork", "price": "$140", "status": "booked", "img": "", "note": "4.5in — forearm" },
+    { "title": "Single-Line Raven", "style": "Linework", "price": "$100", "status": "available", "img": "", "note": "3in — minimalist" },
+    { "title": "Geometric Compass", "style": "Blackwork", "price": "$130", "status": "available", "img": "", "note": "3.5in — back of arm" },
+    { "title": "Traditional Dagger", "style": "American Traditional", "price": "$150", "status": "available", "img": "", "note": "4in — bold linework, color optional" },
+    { "title": "Bindrune Cluster", "style": "Nordic Knotwork", "price": "$110", "status": "available", "img": "", "note": "2–3in — stackable, good for small spaces" }
+  ]
+}

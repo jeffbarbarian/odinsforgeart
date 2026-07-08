@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FAQ &amp; Shop Info — Jeff Ing | Tattoo Artist</title>
+<meta name="description" content="Frequently asked questions and shop information for Jeff Ing, tattoo artist.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="nav-wrap">
+    <a href="index.html" class="brand">Jeff Ing <span>|</span> Tattoo Artist</a>
+    <button class="nav-toggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="flash.html">Flash</a></li>
+      <li><a href="finished.html">Finished</a></li>
+      <li><a href="healed.html">Healed</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="aftercare.html">Aftercare</a></li>
+      <li><a href="faq.html" class="active">FAQ</a></li>
+      <li><a href="booking.html" class="btn btn-solid">Book Now</a></li>
+    </ul>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <span class="eyebrow">Good to Know</span>
+    <h1>FAQ &amp; Shop Info</h1>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2>Shop Info</h2>
+    <div class="info-grid mt-2">
+      <div class="info-card">
+        <h3>Location</h3>
+        <p><span data-field="shop_name">[Shop name]</span><br><span data-field="address_line1">[Street address]</span><br><span data-field="address_line2">[City, NY ZIP]</span></p>
+      </div>
+      <div class="info-card">
+        <h3>Hours</h3>
+        <p data-field="hours">[Day–Day: hours]. Appointment-based — walk-ins as availability allows.</p>
+      </div>
+      <div class="info-card">
+        <h3>Contact</h3>
+        <p><span data-field="booking_email">bookings@odinsforgeart.com</span><br><span data-field="phone">[Phone number]</span></p>
+      </div>
+      <div class="info-card">
+        <h3>Payment</h3>
+        <p>Cash, Venmo, Cash App, Apple Pay, card (Square). Deposits required to hold appointments.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="container">
+    <h2>Frequently Asked Questions</h2>
+    <div class="mt-2" id="faq-list"></div>
+  </div>
+</section>
+
+<section class="text-center">
+  <div class="container max-w">
+    <h2>Still have questions?</h2>
+    <p>Reach out directly — happy to walk through anything not covered here.</p>
+    <a href="booking.html" class="btn btn-solid mt-2">Get in Touch</a>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="brand">Jeff Ing <span>|</span> Tattoo Artist</a>
+        <p data-field="tagline" style="max-width:280px; margin-top:0.5rem;">Nordic knotwork &amp; blackwork tattooing, Saratoga / Clifton Park, NY.</p>
+        <div class="footer-social">
+          <a href="#" target="_blank" rel="noopener" data-field="instagram_url">Instagram</a>
+          <a href="#" target="_blank" rel="noopener" data-field="facebook_url">Facebook</a>
+          <a href="#" target="_blank" rel="noopener" data-field="tiktok_url">TikTok</a>
+        </div>
+      </div>
+      <nav class="footer-links">
+        <a href="flash.html">Available Flash</a>
+        <a href="finished.html">Finished Pieces</a>
+        <a href="healed.html">Healed Pieces</a>
+        <a href="aftercare.html">Aftercare</a>
+        <a href="faq.html">FAQ &amp; Shop Info</a>
+        <a href="booking.html">Booking</a>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      &copy; <span id="year"></span> Jeff Ing. All rights reserved.
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+  loadFAQ('faq-list');
+</script>
+</body>
+</html>

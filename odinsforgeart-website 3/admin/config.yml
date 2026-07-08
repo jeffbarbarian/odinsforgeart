@@ -1,0 +1,127 @@
+backend:
+  name: git-gateway
+  branch: main
+
+# This lets you upload photos through the CMS — they land in assets/images/uploads
+media_folder: "assets/images/uploads"
+public_folder: "/assets/images/uploads"
+
+site_url: "https://odinsforgeart.com"
+
+collections:
+
+  - name: "flash"
+    label: "Available Flash"
+    files:
+      - label: "Flash Pieces"
+        name: "flash"
+        file: "content/flash.json"
+        fields:
+          - label: "Pieces"
+            name: "items"
+            widget: "list"
+            summary: "{{title}} — {{style}} ({{status}})"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - label: "Style"
+                name: "style"
+                widget: "select"
+                options: ["Nordic Knotwork", "Blackwork", "American Traditional", "Linework", "Color"]
+              - { label: "Price", name: "price", widget: "string", required: false }
+              - label: "Status"
+                name: "status"
+                widget: "select"
+                options: ["available", "booked"]
+                default: "available"
+              - { label: "Photo", name: "img", widget: "image", required: false, hint: "Leave blank to show a placeholder box" }
+              - { label: "Note (size, placement, etc.)", name: "note", widget: "string", required: false }
+
+  - name: "finished"
+    label: "Finished Pieces"
+    files:
+      - label: "Finished Pieces"
+        name: "finished"
+        file: "content/finished.json"
+        fields:
+          - label: "Pieces"
+            name: "items"
+            widget: "list"
+            summary: "{{title}} — {{style}}"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - label: "Style"
+                name: "style"
+                widget: "select"
+                options: ["Nordic Knotwork", "Blackwork", "American Traditional", "Linework", "Color"]
+              - { label: "Photo", name: "img", widget: "image", required: false, hint: "Leave blank to show a placeholder box" }
+              - { label: "Note", name: "note", widget: "string", required: false }
+
+  - name: "healed"
+    label: "Healed Pieces"
+    files:
+      - label: "Healed Pieces"
+        name: "healed"
+        file: "content/healed.json"
+        fields:
+          - label: "Pieces"
+            name: "items"
+            widget: "list"
+            summary: "{{title}} — {{style}}"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - label: "Style"
+                name: "style"
+                widget: "select"
+                options: ["Nordic Knotwork", "Blackwork", "American Traditional", "Linework", "Color"]
+              - { label: "Photo", name: "img", widget: "image", required: false, hint: "Leave blank to show a placeholder box" }
+              - { label: "Note (e.g. Healed at 6 weeks)", name: "note", widget: "string", required: false }
+
+  - name: "faq"
+    label: "FAQ"
+    files:
+      - label: "FAQ Items"
+        name: "faq"
+        file: "content/faq.json"
+        fields:
+          - label: "Questions"
+            name: "items"
+            widget: "list"
+            summary: "{{question}}"
+            fields:
+              - { label: "Question", name: "question", widget: "string" }
+              - { label: "Answer", name: "answer", widget: "text" }
+
+  - name: "about"
+    label: "About Page"
+    files:
+      - label: "Bio & Values"
+        name: "about"
+        file: "content/about.json"
+        fields:
+          - label: "Bio Paragraphs"
+            name: "bio_paragraphs"
+            widget: "list"
+            field: { label: "Paragraph", name: "paragraph", widget: "text" }
+          - label: "Approach & Values (bullet points)"
+            name: "values"
+            widget: "list"
+            field: { label: "Value", name: "value", widget: "string" }
+
+  - name: "settings"
+    label: "Site Settings"
+    files:
+      - label: "Contact & Shop Info"
+        name: "settings"
+        file: "content/settings.json"
+        fields:
+          - { label: "Footer Tagline", name: "tagline", widget: "string" }
+          - { label: "Instagram URL", name: "instagram_url", widget: "string" }
+          - { label: "Facebook URL", name: "facebook_url", widget: "string" }
+          - { label: "TikTok URL", name: "tiktok_url", widget: "string" }
+          - { label: "Booking Email", name: "booking_email", widget: "string" }
+          - { label: "Booking Form URL", name: "booking_form_url", widget: "string" }
+          - { label: "Phone Number", name: "phone", widget: "string", required: false }
+          - { label: "Shop Name", name: "shop_name", widget: "string", required: false }
+          - { label: "Address Line 1", name: "address_line1", widget: "string", required: false }
+          - { label: "Address Line 2 (City, State ZIP)", name: "address_line2", widget: "string", required: false }
+          - { label: "Hours", name: "hours", widget: "text", required: false }

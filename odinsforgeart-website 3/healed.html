@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Healed Pieces — Jeff Ing | Tattoo Artist</title>
+<meta name="description" content="See how Jeff Ing's tattoos look once fully healed.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="nav-wrap">
+    <a href="index.html" class="brand">Jeff Ing <span>|</span> Tattoo Artist</a>
+    <button class="nav-toggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="flash.html">Flash</a></li>
+      <li><a href="finished.html">Finished</a></li>
+      <li><a href="healed.html" class="active">Healed</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="aftercare.html">Aftercare</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+      <li><a href="booking.html" class="btn btn-solid">Book Now</a></li>
+    </ul>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <span class="eyebrow">The Real Proof</span>
+    <h1>Healed Pieces</h1>
+    <p>Fresh tattoos always look sharp — the real test is how a piece holds up months later. This page tracks healed results: line retention, saturation, and how the skin settles. Typically shown at 4–8 weeks post-tattoo.</p>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="gallery-grid" id="healed-grid"></div>
+  </div>
+</section>
+
+<section class="alt text-center">
+  <div class="container max-w">
+    <h2>Curious how your piece will heal?</h2>
+    <p>Good healing starts with good aftercare. Check the aftercare guide, and don't hesitate to send healing check-in photos.</p>
+    <a href="aftercare.html" class="btn mt-2">Aftercare Guide</a>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="brand">Jeff Ing <span>|</span> Tattoo Artist</a>
+        <p data-field="tagline" style="max-width:280px; margin-top:0.5rem;">Nordic knotwork &amp; blackwork tattooing, Saratoga / Clifton Park, NY.</p>
+        <div class="footer-social">
+          <a href="#" target="_blank" rel="noopener" data-field="instagram_url">Instagram</a>
+          <a href="#" target="_blank" rel="noopener" data-field="facebook_url">Facebook</a>
+          <a href="#" target="_blank" rel="noopener" data-field="tiktok_url">TikTok</a>
+        </div>
+      </div>
+      <nav class="footer-links">
+        <a href="flash.html">Available Flash</a>
+        <a href="finished.html">Finished Pieces</a>
+        <a href="healed.html">Healed Pieces</a>
+        <a href="aftercare.html">Aftercare</a>
+        <a href="faq.html">FAQ &amp; Shop Info</a>
+        <a href="booking.html">Booking</a>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      &copy; <span id="year"></span> Jeff Ing. All rights reserved.
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  // Pieces are edited at odinsforgeart.com/admin — this just loads them.
+  loadGallery('content/healed.json', 'healed-grid');
+</script>
+</body>
+</html>
