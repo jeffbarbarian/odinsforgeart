@@ -1,8 +1,28 @@
 {
   "items": [
-    { "title": "Healed Piece", "style": "Blackwork", "img": "", "note": "Healed at 6 weeks — add photo + details" },
-    { "title": "Healed Piece", "style": "Nordic Knotwork", "img": "", "note": "Healed at 8 weeks — add photo + details" },
-    { "title": "Healed Piece", "style": "Linework", "img": "", "note": "Healed at 5 weeks — add photo + details" },
-    { "title": "Healed Piece", "style": "Color", "img": "", "note": "Healed at 8 weeks — add photo + details" }
+    {
+      "title": "Healed Chrysanthemum",
+      "style": "Blackwork",
+      "img": "/assets/images/uploads/img_8398.heic",
+      "note": "Healed at 5 months"
+    },
+    {
+      "title": "Healed tarot card",
+      "style": "Blackwork",
+      "img": "/assets/images/uploads/img_3412.heic",
+      "note": "Healed at 3 months"
+    },
+    {
+      "title": "Healed nordic linework",
+      "style": "Linework",
+      "img": "/assets/images/uploads/aecd217a-8ad5-4cc8-9351-4d55210e9050.jpg",
+      "note": "Healed at 2 months"
+    },
+    {
+      "title": "Healed Piece",
+      "style": "Color",
+      "img": "",
+      "note": "Healed at 8 weeks — add photo + details"
+    }
   ]
 }
