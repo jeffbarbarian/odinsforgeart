@@ -1,12 +1,36 @@
 {
   "items": [
-    { "question": "What's your minimum?", "answer": "Current minimum is $100, focused on linework pieces while I build fundamentals under mentorship. Larger or more detailed custom work is quoted individually." },
-    { "question": "Do you do color tattoos?", "answer": "Color is on the roadmap — right now bookings are linework-focused to lock in fundamentals. If you got a piece done during this period, you're welcome to come back later for shading or color at a discount." },
-    { "question": "How much does a tattoo cost?", "answer": "Pricing depends on size, placement, and detail. Flash pieces are priced individually (see the Flash page); custom work is quoted after a consult." },
-    { "question": "Do you require a deposit?", "answer": "Yes — a non-refundable deposit is required to book and secure your appointment. It's applied toward the final cost of your tattoo." },
-    { "question": "What's your cancellation policy?", "answer": "Please give at least 24 hours notice to reschedule or cancel. Cancellations or no-shows with less notice may forfeit the deposit." },
-    { "question": "Do you take walk-ins?", "answer": "Appointments are preferred so there's time to plan the design properly, but walk-ins are welcome for available flash when the schedule allows." },
-    { "question": "How old do I need to be?", "answer": "You must be 18+ with valid ID. No exceptions, no parental consent accepted, per NY State law." },
-    { "question": "What should I do before my appointment?", "answer": "Get a good night's sleep, eat a full meal beforehand, stay hydrated, and avoid alcohol for 24 hours prior. Wear clothing that gives easy access to the tattoo area." }
+    {
+      "question": "What's your minimum?",
+      "answer": "Current minimum is $100 for custom pieces and flash. I do run specials on my flash where I discount certain flash each month that I have posted. Check back monthly to see what flash I'm offering each month at a discount."
+    },
+    {
+      "question": "Do you do color tattoos?",
+      "answer": "Yes I do color tattoos."
+    },
+    {
+      "question": "How much does a tattoo cost?",
+      "answer": "Pricing depends on size, complexity, color vs. black and grey, and level of detail."
+    },
+    {
+      "question": "Do you require a deposit?",
+      "answer": "Yes, I require a non-refundable $25 deposit. This deposit does go towards the overall price of the tattoo."
+    },
+    {
+      "question": "What's your cancellation policy?",
+      "answer": "I understand things happen and the need to reschedule. I ask that you let me know of rescheduling at least 24 hours in advance. I allow one reschedule before an additional deposit is required."
+    },
+    {
+      "question": "Do you take walk-ins?",
+      "answer": "Appointments are preferred but I do take walk-ins for consultations."
+    },
+    {
+      "question": "How old do I need to be?",
+      "answer": "You must be 18+ with valid ID. No exceptions, no parental consent accepted, per NY State law."
+    },
+    {
+      "question": "What should I do before my appointment?",
+      "answer": "Get a good night's sleep. Be sure you've eaten enough and are well hydrated. A few days leading up to your appointment make sure you are using lotion on the tattoo area to ensure the skin is not dry and flexible for the tattoo appointment."
+    }
   ]
 }
