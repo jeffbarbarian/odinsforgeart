@@ -32,9 +32,9 @@
 
 <section class="hero">
   <div class="container">
-    <span class="eyebrow">Saratoga / Clifton Park, NY</span>
-    <h1>Bold blackwork &amp; Nordic pieces,<br>built to last.</h1>
-    <p class="lede">Fine linework, Nordic knotwork, and American traditional tattooing — approached with patience, precision, and a genuine interest in the story behind every piece.</p>
+    <span class="eyebrow" id="hero-eyebrow">Saratoga / Clifton Park, NY</span>
+    <h1 id="hero-headline">Bold blackwork &amp; Nordic pieces,<br>built to last.</h1>
+    <p class="lede" id="hero-lede">Fine linework, Nordic knotwork, and American traditional tattooing — approached with patience, precision, and a genuine interest in the story behind every piece.</p>
     <div class="btn-row">
       <a href="booking.html" class="btn btn-solid">Book a Consult</a>
       <a href="finished.html" class="btn">View Portfolio</a>
@@ -81,10 +81,10 @@
   <div class="container about-grid">
     <div class="portrait-placeholder">Add photo:<br>Jeff at the machine / studio shot</div>
     <div class="body">
-      <span class="eyebrow">Tattoo Apprentice</span>
-      <h2>Linework first. Everything else follows.</h2>
-      <p>Jeff is a tattoo apprentice working toward a style built on clean linework, Nordic knotwork, and blackwork — with American traditional and color as the long-term goal. Every session is about doing the fundamentals right before chasing the flashy stuff.</p>
-      <p>Currently taking linework-focused bookings while drilling the craft under mentorship. Clients are welcome to return later for shading or color work.</p>
+      <span class="eyebrow" id="about-eyebrow">Tattoo Apprentice</span>
+      <h2 id="about-heading">Linework first. Everything else follows.</h2>
+      <p id="about-p1">Jeff is a tattoo apprentice working toward a style built on clean linework, Nordic knotwork, and blackwork — with American traditional and color as the long-term goal. Every session is about doing the fundamentals right before chasing the flashy stuff.</p>
+      <p id="about-p2">Currently taking linework-focused bookings while drilling the craft under mentorship. Clients are welcome to return later for shading or color work.</p>
       <a href="about.html" class="btn mt-2">More About Jeff</a>
     </div>
   </div>
@@ -128,7 +128,7 @@
 </footer>
 
 <script src="assets/js/main.js"></script>
-<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();loadHome();</script>
 
 <!-- Netlify Identity — handles the login link from invite/reset emails
      and sends you to the CMS at /admin/ after you log in. -->
