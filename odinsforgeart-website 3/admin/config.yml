@@ -3,7 +3,7 @@ backend:
   branch: main
 
 # This lets you upload photos through the CMS — they land in assets/images/uploads
-media_folder: "assets/images/uploads"
+media_folder: "odinsforgeart-website 3/assets/images/uploads"
 public_folder: "/assets/images/uploads"
 
 site_url: "https://odinsforgeart.com"
@@ -15,7 +15,7 @@ collections:
     files:
       - label: "Flash Pieces"
         name: "flash"
-        file: "content/flash.json"
+        file: "odinsforgeart-website 3/content/flash.json"
         fields:
           - label: "Pieces"
             name: "items"
@@ -41,7 +41,7 @@ collections:
     files:
       - label: "Finished Pieces"
         name: "finished"
-        file: "content/finished.json"
+        file: "odinsforgeart-website 3/content/finished.json"
         fields:
           - label: "Pieces"
             name: "items"
@@ -61,7 +61,7 @@ collections:
     files:
       - label: "Healed Pieces"
         name: "healed"
-        file: "content/healed.json"
+        file: "odinsforgeart-website 3/content/healed.json"
         fields:
           - label: "Pieces"
             name: "items"
@@ -81,7 +81,7 @@ collections:
     files:
       - label: "FAQ Items"
         name: "faq"
-        file: "content/faq.json"
+        file: "odinsforgeart-website 3/content/faq.json"
         fields:
           - label: "Questions"
             name: "items"
@@ -96,7 +96,7 @@ collections:
     files:
       - label: "Bio & Values"
         name: "about"
-        file: "content/about.json"
+        file: "odinsforgeart-website 3/content/about.json"
         fields:
           - label: "Bio Paragraphs"
             name: "bio_paragraphs"
@@ -112,7 +112,7 @@ collections:
     files:
       - label: "Contact & Shop Info"
         name: "settings"
-        file: "content/settings.json"
+        file: "odinsforgeart-website 3/content/settings.json"
         fields:
           - { label: "Footer Tagline", name: "tagline", widget: "string" }
           - { label: "Instagram URL", name: "instagram_url", widget: "string" }
