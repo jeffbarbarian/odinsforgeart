@@ -193,3 +193,5 @@ function loadAbout(bioContainerId, valuesContainerId) {
     }
   });
 }
+
+function loadHome(){fetchJSON('content/home.json').then(function(data){if(!data)return;var map={'hero-eyebrow':data.hero_eyebrow,'hero-lede':data.hero_lede,'about-eyebrow':data.about_eyebrow,'about-heading':data.about_heading,'about-p1':data.about_paragraph1,'about-p2':data.about_paragraph2};Object.keys(map).forEach(function(id){var el=document.getElementById(id);if(el&&map[id])el.textContent=map[id];});var headlineEl=document.getElementById('hero-headline');if(headlineEl&&(data.hero_headline_line1||data.hero_headline_line2)){headlineEl.innerHTML=(data.hero_headline_line1||'')+'<br>'+(data.hero_headline_line2||'');}});}
