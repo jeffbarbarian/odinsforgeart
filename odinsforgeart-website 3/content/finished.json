@@ -1,15 +1,82 @@
 {
   "items": [
-    { "title": "Colored Lips", "style": "Color", "img": "", "note": "Fine linework with color fill" },
-    { "title": "Candle with Colored Flame", "style": "Color", "img": "", "note": "Blackwork base, color accent" },
-    { "title": "Bird Skull with Crystals", "style": "Blackwork", "img": "", "note": "" },
-    { "title": "Broken Chains", "style": "Linework", "img": "", "note": "" },
-    { "title": "Peony with Checkered Leaves", "style": "Blackwork", "img": "", "note": "Botanical, patterned linework" },
-    { "title": "Black Wolf", "style": "Blackwork", "img": "", "note": "" },
-    { "title": "Majora's Mask", "style": "Blackwork", "img": "", "note": "" },
-    { "title": "Stag Beetle", "style": "Linework", "img": "", "note": "" },
-    { "title": "Ladybug", "style": "Color", "img": "", "note": "" },
-    { "title": "Lady Head", "style": "American Traditional", "img": "", "note": "" },
-    { "title": "Coffin", "style": "Blackwork", "img": "", "note": "" }, { "title": "Black and grey coffin", "style": "American Traditional", "img": "", "note": "Photo was lost in an upload error — please re-upload via /admin" }, { "title": "Chrysanthemum", "style": "American Traditional", "img": "", "note": "Photo was lost in an upload error — please re-upload via /admin" }
+    {
+      "title": "Colored Lips",
+      "style": "Color",
+      "img": "",
+      "note": "Fine linework with color fill"
+    },
+    {
+      "title": "Candle with Colored Flame",
+      "style": "Color",
+      "img": "",
+      "note": "Blackwork base, color accent"
+    },
+    {
+      "title": "Bird Skull with Crystals",
+      "style": "Blackwork",
+      "img": "",
+      "note": ""
+    },
+    {
+      "title": "Broken Chains",
+      "style": "Linework",
+      "img": "",
+      "note": ""
+    },
+    {
+      "title": "Peony with Checkered Leaves",
+      "style": "Blackwork",
+      "img": "",
+      "note": "Botanical, patterned linework"
+    },
+    {
+      "title": "Black Wolf",
+      "style": "Blackwork",
+      "img": "",
+      "note": ""
+    },
+    {
+      "title": "Majora's Mask",
+      "style": "Blackwork",
+      "img": "",
+      "note": ""
+    },
+    {
+      "title": "Stag Beetle",
+      "style": "Linework",
+      "img": "",
+      "note": ""
+    },
+    {
+      "title": "Ladybug",
+      "style": "Color",
+      "img": "",
+      "note": ""
+    },
+    {
+      "title": "Lady Head",
+      "style": "American Traditional",
+      "img": "",
+      "note": ""
+    },
+    {
+      "title": "Coffin",
+      "style": "Blackwork",
+      "img": "",
+      "note": ""
+    },
+    {
+      "title": "Black and grey coffin",
+      "style": "American Traditional",
+      "img": "/assets/images/uploads/untitled-design.png",
+      "note": "Photo was lost in an upload error — please re-upload via /admin"
+    },
+    {
+      "title": "Chrysanthemum",
+      "style": "American Traditional",
+      "img": "",
+      "note": "Photo was lost in an upload error — please re-upload via /admin"
+    }
   ]
 }
