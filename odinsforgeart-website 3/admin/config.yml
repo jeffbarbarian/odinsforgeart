@@ -9,6 +9,7 @@ public_folder: "/assets/images/uploads"
 site_url: "https://odinsforgeart.com"
 
 collections:
+  - { name: "home", label: "Home Page", files: [ { label: "Home Page Content", name: "home", file: "odinsforgeart-website 3/content/home.json", fields: [ { label: "Hero Eyebrow", name: "hero_eyebrow", widget: "string" }, { label: "Hero Headline Line 1", name: "hero_headline_line1", widget: "string" }, { label: "Hero Headline Line 2", name: "hero_headline_line2", widget: "string" }, { label: "Hero Lede", name: "hero_lede", widget: "text" }, { label: "About Eyebrow", name: "about_eyebrow", widget: "string" }, { label: "About Heading", name: "about_heading", widget: "string" }, { label: "About Paragraph 1", name: "about_paragraph1", widget: "text" }, { label: "About Paragraph 2", name: "about_paragraph2", widget: "text" } ] } ] }
 
   - name: "flash"
     label: "Available Flash"
@@ -125,3 +126,4 @@ collections:
           - { label: "Address Line 1", name: "address_line1", widget: "string", required: false }
           - { label: "Address Line 2 (City, State ZIP)", name: "address_line2", widget: "string", required: false }
           - { label: "Hours", name: "hours", widget: "text", required: false }
+          - { label: "Payment Info", name: "payment_info", widget: "text", required: false }
